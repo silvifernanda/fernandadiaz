@@ -22,3 +22,4 @@ a=15
 b=23
 residuo=a%b
 print("el resultado es",residuo)
+
