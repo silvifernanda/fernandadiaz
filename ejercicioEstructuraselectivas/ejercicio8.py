@@ -1,8 +1,9 @@
 #declarar variables
+# comence a definir edad meses y nivel
 edad_meses = float(input("Por favor, introduce tu edad en meses: "))
 nivel_hemoglobina = float(input("Por favor, introduce tu nivel de hemoglobina en g%: "))
 sexo = input("Por favor, introduce tu sexo (femenino/masculino): ")
-#sus opciones pa escoger
+#ya despues pueden escoger sus opciones 
 if edad_meses <= 1:
     rango = (13, 26)
 elif edad_meses <= 6:

@@ -1,8 +1,8 @@
 #declarar variables
 #primero definmos el prestamoBanco,despues el montoTotal
-#despuesdefinimos dineroPropio y por ultimo saque el creditofabricante
 prestamoBanco=0
 montoTotal=int(input("Digite el monto total de la compra:"))
+#despuesdefinimos dineroPropio y por ultimo saque el creditofabricante
 if montoTotal>500000:
     dineroPropio=montoTotal*0.55
     prestamoBanco=montoTotal*0.30
